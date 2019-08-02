@@ -1,0 +1,327 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=000000]
+\definecolor[sectioncolor][h=000000]
+\definecolor[rulecolor][h=000000]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Lucas Teixeira},reference={lucas-teixeira}]
+
+\thinrule
+
+\startblockquote
+I'm a seasoned software engineer familiar with C\#, ActionScript,
+JavaScript, Java and C++. Focused mainly on games, 3D, motion and
+client-side programs in general. Solid skills on design patterns,
+software architecture, sockets/network, mathematics and physics.
+\stopblockquote
+
+\thinrule
+
+\subsection[title={Experience},reference={experience}]
+
+{\bf Software Engineer at Rogue Snail (2019)}\crlf
+Remote position.
+
+Developed the loot/action game Relic Hunters Legend using Unity3D and
+C\#.
+
+\startitemize[packed]
+\item
+  Gameplay, VFX and UI code;
+\item
+  Steam API integration;
+\item
+  Software architecture and planning;
+\item
+  Worked on a existing Amazon AWS system (using C\#) to build, deploy
+  and upload the game to Steam platform.
+\stopitemize
+
+{\bf Software Engineer at Possible Brasil (2018)}\crlf
+Remote position.
+
+Developed the Siemens Quiz game for mobile platforms using Apache
+Cordova and HTML/CSS/JavaScript.
+
+\startitemize[packed]
+\item
+  Large code base with years of existence and several past contributors;
+\item
+  System based on AngularJS;
+\item
+  Worked on the client side creating new features and game modes;
+\item
+  Sever communication via HTTP requests;
+\item
+  Deployed for Android and iOS.
+\stopitemize
+
+{\bf Software Engineer at Sirlin Games (2017)}\crlf
+Remote position.
+
+Mainly responsible for the UI and Steam integration of the fighting game
+Fantasy Strike.
+
+\startitemize[packed]
+\item
+  Responsible for UI and screen navigation flow;
+\item
+  Developed the training mode of the game;
+\item
+  Steam API integration;
+\item
+  Also worked on the matchmaking server (using Java) writing an
+  implementation of the Elo rating system.
+\stopitemize
+
+{\bf Software Engineer at Aquiris Game Studio (2014-2017)}\crlf
+Porto Alegre, Brazil.
+
+During my time at Aquiris I've worked on two projects using Unity3D and
+C\#. The first one was the first person shooter game Ballistic Overkill
+and the second was the mobile game Looney Tunes World of Mayhem (which
+is was the leader of the client team).
+
+\startitemize[packed]
+\item
+  Ported the game Ballistic from Facebook to Steam platform;
+\item
+  Reimplemented the network system using Steam's peer-to-peer networking
+  API;
+\item
+  Maintained the game during the early access stage;
+\item
+  Client team leader of the Looney Tunes game for mobiles platforms;
+\item
+  Responsible for sprint planing, designing the core systems and
+  supporting the members of the team;
+\item
+  Developed two prototype of battle systems similar to JRPG games.
+\stopitemize
+
+{\bf Motion Programmer at Conrad Caine (2010-2014)}\crlf
+Pelotas, Brazil.
+
+Worked mainly with Flash (ActionScript2 and ActionScript3) to develop a
+wide range of web and motion applications including screen savers, panic
+boards and e-learning games.
+
+\startitemize[packed]
+\item
+  Developed advergames and e-learning games using ActionScript3;
+\item
+  Implemented screen savers for Windows using C++ and OpenGL;
+\item
+  Worked on a high profile project where we created a panic board
+  application using ActionScript3 and JavaScript;
+\item
+  Server communication using HTTP requests and TCP sockets;
+\item
+  Developed prototypes using Microsoft Kinect for a movement-based input
+  system.
+\stopitemize
+
+{\bf Flash Developer at Eckert&Caine (2009)}\crlf
+Pelotas, Brazil.
+
+Part of a small team developing a large web system for strategy and
+management used by companies around the world.
+
+\startitemize[packed]
+\item
+  Developed multimedia components using Flash/ActionScript3 to be used
+  by the JavaScript team;
+\item
+  Created Flash scripts to be used as fallback in older browsers (like a
+  Video Player, File Upload utility and so on).
+\stopitemize
+
+{\bf Flash Developer at Conrad Caine (2006-2007)}\crlf
+Pelotas, Brazil.
+
+Development of motion websites and enterprise softwares using
+ActionScript and ActionScript2.
+
+\startitemize[packed]
+\item
+  Worked on a large medical systems developing the frontend (using
+  ActionScript2) including UI and server communication;
+\item
+  Developed a simple prototype of a racing game using J2ME and the M3G
+  library for mobile platforms;
+\item
+  Used projectors like Zync and mProjector to export Flash as desktop
+  applications.
+\stopitemize
+
+{\bf Multimedia Developer at Gestum (2005-2006)}\crlf
+Pelotas, Brazil.
+
+Junior programmer using ActionScript2 to create e-learnining games
+targeted for Flash Player 7.
+
+\startitemize[packed]
+\item
+  Worked on a isometric game engine written in ActionScript2;
+\item
+  Implemented the A* algorithm;
+\item
+  Developed game tools for character creation and level design;
+\item
+  Packed the game using SCORM specification.
+\stopitemize
+
+\subsection[title={Technical
+Experience},reference={technical-experience}]
+
+\startdescription{Published Games}
+  Here's a list of every published game that I've worked on:
+
+  \startitemize
+  \item
+    {\bf Relic Hunters Legend:} loot/action game for Steam
+    platform.\crlf
+    https://store.steampowered.com/app/633080/Relic_Hunters_Legend/
+  \item
+    {\bf Siemens Quiz:} question and answer game for mobile
+    platforms.\crlf
+    https://play.google.com/store/apps/details?id=com.siemens.quizapp\crlf
+    https://apps.apple.com/br/app/siemens-quiz/id1243612766
+  \item
+    {\bf Fantasy Strike:} fighting game for Steam platform.\crlf
+    https://store.steampowered.com/app/390560/Fantasy_Strike/
+  \item
+    {\bf Looney Tunes World of Mayhem:} free-to-play game for mobile
+    platforms.\crlf
+    https://play.google.com/store/apps/details?id=com.aqupepgames.projectpepe\crlf
+    https://apps.apple.com/nz/app/looney-tunes-world-of-mayhem/id1158042933
+  \item
+    {\bf Ballistic Overkill:} online first person shooter game for Steam
+    platform.\crlf
+    https://store.steampowered.com/app/296300/Ballistic_Overkill
+  \stopitemize
+\stopdescription
+
+\startdescription{My Personal Project}
+  {\bf All Too Human} is a real time strategy game that I've been
+  developed over the past years using Unity3D and C\#.\crlf
+  The game is set in vasts wastelands and it's composed essentially by
+  two systems: units control and city management.\crlf
+
+  \startitemize
+  \item
+    {\bf TigSource DevLog:}
+    https://forums.tigsource.com/index.php?topic=65558.0
+  \item
+    {\bf Download the game vertical slice (released in July/2019):}
+    https://lucas-ot.itch.io/all-too-human-king-of-the-settlement
+  \stopitemize
+\stopdescription
+
+\startdescription{Open Source}
+  {\bf as3-msgpack} is an implementation of MessagePack specification
+  for ActionScript3. I developed this library during 2012-2013 because
+  at the time there was not good implementation of that specification
+  for AS3. Nowadays as3-msgpack is still listed in MessagePack frontpage
+  and is eventually used by Haxe developers.
+
+  \startitemize[packed]
+  \item
+    {\bf as3-msgpack at GitHub:}
+    https://github.com/loteixeira/as3-msgpack
+  \stopitemize
+\stopdescription
+
+\startdescription{Skills & Technologies}
+  {\bf Languages:} C\#, ActionScript3, JavaScript, Java, C++, Python and
+  Lua.\crlf
+  {\bf Game/Rendering Engines:} Unity3D, Three.js, Away3D and Irrlicht
+  Engine.\crlf
+  {\bf Shading Languages:} CG, GLSL and AGAL.\crlf
+  {\bf Libraries/Frameworks:} Frictionless, Steam API, Windows API,
+  OpenGL, OpenAL, WebGL, Angular.js, React and Amazon AWS (EC2, Lambda,
+  S3 and DynamoDB).
+\stopdescription
+
+\subsection[title={Appendix},reference={appendix}]
+
+\startitemize
+\item
+  LinkedIn Profile: https://www.linkedin.com/in/lucas-teixeira-aab475bb
+\item
+  GitHub Profile: https://github.com/loteixeira
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url1][mailto:loteixeira@gmail.com][][loteixeira@gmail.com]\from[url1]
+• +55 51 99471 1141 • 34 years old\crlf
+Rua Sofia Veloso 104/802 - Porto Alegre, Brazil
+\stopblockquote
+
+\stoptext
