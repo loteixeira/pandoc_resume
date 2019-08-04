@@ -3,7 +3,7 @@ Lucas Teixeira
 
 ----
 
-> I'm a seasoned software engineer familiar with C#, ActionScript, JavaScript, Java and C++.
+> I'm a seasoned Brazilian software engineer familiar with C#, ActionScript, JavaScript, Java and C++.
 > Focused mainly on games, 3D, motion and client-side programs in general.
 > Solid skills on design patterns, software architecture, sockets/network, mathematics and physics.
 
@@ -37,7 +37,7 @@ Developed the Siemens Quiz game for mobile platforms using Apache Cordova and HT
 **Software Engineer at Sirlin Games (2017)**\
 Remote position.
 
-Mainly responsible for the UI and Steam integration of the fighting game Fantasy Strike.
+Mainly responsible for the UI and Steam integration of the fighting game Fantasy Strike using Unity3D and C#.
 
 * Responsible for UI and screen navigation flow;
 * Developed the training mode of the game;
@@ -51,6 +51,7 @@ During my time at Aquiris I've worked on two projects using Unity3D and C#. The 
 
 * Ported the game Ballistic from Facebook to Steam platform;
 * Reimplemented the network system using Steam's peer-to-peer networking API;
+* Created the dedicated server of the game;
 * Maintained the game during the early access stage;
 * Client team leader of the Looney Tunes game for mobiles platforms;
 * Responsible for sprint planing, designing the core systems and supporting the members of the team;
@@ -80,7 +81,7 @@ Pelotas, Brazil.
 
 Development of motion websites and enterprise softwares using ActionScript and ActionScript2.
 
-* Worked on a large medical systems developing the frontend (using ActionScript2) including UI and server communication;
+* Worked on a large medical system developing the frontend (using ActionScript2) including UI and server communication;
 * Developed a simple prototype of a racing game using J2ME and the M3G library for mobile platforms;
 * Used projectors like Zync and mProjector to export Flash as desktop applications.
 
@@ -118,7 +119,7 @@ Published Games
 	https://store.steampowered.com/app/296300/Ballistic_Overkill
 	  
 My Personal Project
-:   **All Too Human** is a real time strategy game that I've been developed over the past years using Unity3D and C#.\
+:   **All Too Human** is a real time strategy game that I've been developing over the past years using Unity3D and C#.\
     The game is set in vasts wastelands and it's composed essentially by two systems: units control and city management.\
 	 
 	* **TigSource DevLog:** https://forums.tigsource.com/index.php?topic=65558.0
@@ -127,16 +128,16 @@ My Personal Project
 	  
 Open Source
 :   **as3-msgpack** is an implementation of MessagePack specification for ActionScript3.
-    I developed this library during 2012-2013 because at the time there was not good implementation of that specification for AS3.
+    I wrote this library during 2012-2013 because at the time there was no good implementation of that specification for AS3.
 	Nowadays as3-msgpack is still listed in MessagePack frontpage and is eventually used by Haxe developers.
 	
 	* **as3-msgpack at GitHub:** https://github.com/loteixeira/as3-msgpack
 
 Skills & Technologies
 :   **Languages:** C#, ActionScript3, JavaScript, Java, C++, Python and Lua.\
-    **Game/Rendering Engines:** Unity3D, Three.js, Away3D and Irrlicht Engine.\
+    **Game/Rendering Engines:** Unity3D, Three.js, Away3D, Irrlicht Engine, SDL, Allegro and Flash API.\
 	**Shading Languages:** CG, GLSL and AGAL.\
-	**Libraries/Frameworks:** Frictionless, Steam API, Windows API, OpenGL, OpenAL, WebGL, Angular.js, React and Amazon AWS (EC2, Lambda, S3 and DynamoDB).
+	**Libraries/Frameworks:** Frictionless, Unity3D Editor API, Steam API, Windows API, OpenGL, OpenAL, Make, WebGL, Node.js, Angular.js, React and Amazon Web Services (EC2, Lambda, S3 and DynamoDB).
 
 Appendix
 --------
