@@ -21,6 +21,7 @@ Developed the loot/action game Relic Hunters Legend using Unity3D and C#.
 * Gameplay, VFX and UI code;
 * Steam API integration;
 * Software architecture and planning;
+* Used Photon to implement multiplayer;
 * Worked on a existing Amazon AWS system (using C#) to build, deploy and upload the game to Steam platform.
 
 **Software Engineer at Possible Brasil (2018)**\
@@ -37,7 +38,7 @@ Developed the Siemens Quiz game for mobile platforms using Apache Cordova and HT
 **Software Engineer at Sirlin Games (2017)**\
 Remote position.
 
-Mainly responsible for the UI and Steam integration of the fighting game Fantasy Strike using Unity3D and C#.
+Mainly responsible for the UI and Steam integration of the fighting game Fantasy Strike using Unity3D and C# with the Universal Fighting Engine.
 
 * Responsible for UI and screen navigation flow;
 * Developed the training mode of the game;
@@ -68,7 +69,7 @@ Worked mainly with Flash (ActionScript2 and ActionScript3) to develop a wide ran
 * Server communication using HTTP requests and TCP sockets;
 * Developed prototypes using Microsoft Kinect for a movement-based input system.
 
-**Flash Developer at Eckert&Caine (2009)**\
+**Flash Developer at Eckert&Caine (2009-2010)**\
 Pelotas, Brazil.
 
 Part of a small team developing a large web system for strategy and management used by companies around the world.
@@ -76,7 +77,7 @@ Part of a small team developing a large web system for strategy and management u
 * Developed multimedia components using Flash/ActionScript3 to be used by the JavaScript team;
 * Created Flash scripts to be used as fallback in older browsers (like a Video Player, File Upload utility and so on).
 
-**Flash Developer at Conrad Caine (2006-2007)**\
+**Flash Developer at Conrad Caine (2005-2006)**\
 Pelotas, Brazil.
 
 Development of motion websites and enterprise softwares using ActionScript and ActionScript2.
@@ -85,7 +86,7 @@ Development of motion websites and enterprise softwares using ActionScript and A
 * Developed a simple prototype of a racing game using J2ME and the M3G library for mobile platforms;
 * Used projectors like Zync and mProjector to export Flash as desktop applications.
 
-**Multimedia Developer at Gestum (2005-2006)**\
+**Multimedia Developer at Gestum (2004-2005)**\
 Pelotas, Brazil.
 
 Junior programmer using ActionScript2 to create e-learnining games targeted for Flash Player 7.
