@@ -149,5 +149,5 @@ Appendix
 
 ----
 
-> <loteixeira@gmail.com> • +55 51 99471 1141 • 34 years old\
-> Rua Sofia Veloso 104/802 - Porto Alegre, Brazil
+> <loteixeira@gmail.com> • 34 years old\
+> Porto Alegre, Brazil
